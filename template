@@ -1,0 +1,45 @@
+# selfbot-discord-template
+this is a template for a discord selfbot! NOTE: SELFBOTTING DOES GO AGAINST DISCORD'S TOS AND YOU CAN GET BANNED FOR IT! I AM NOT RESPONSIBLE FOR ANY DAMAGES DONE!
+
+
+const Discord = require("discord.js-selfbot");
+const Client = new Discord.Client();
+
+const Token = "put your auth token here";
+const Id = "Put your id here";
+
+Client.on("message", async (Message) => {
+     if (Message.author.id == Id) {
+         if (Message.content == ".?Online") {
+            Message.reply("SelfBot Is Online! :)");
+         }
+     }
+});
+
+Client.on("message", async (Message) => {
+    if (Message.author.id == Id) {
+        if (Message.content == ".?gay") {
+           Message.reply("yes you are hella gay");
+        }
+    }
+});
+
+
+Client.on("message", async (Message) => {
+    if (Message.author.id == Id) {
+        if (Message.content == ".?RRL") {
+           Message.reply("https://r.mtdv.me/OwlLKkKq2%3E");
+        }
+    }
+});
+
+
+Client.on("message", async (Message) => {
+    if (Message.author.id == Id) {
+        if (Message.content == ".?ping") {
+           Message.reply(".?pong");
+        }
+    }
+});
+
+Client.login(Token);

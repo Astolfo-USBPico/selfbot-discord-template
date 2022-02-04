@@ -1,2 +1,0 @@
-# selfbot-discord-template
-this is a template for a discord selfbot! NOTE: SELFBOTTING DOES GO AGAINST DISCORD'S TOS AND YOU CAN GET BANNED FOR IT! I AM NOT RESPONSIBLE FOR ANY DAMAGES DONE!
